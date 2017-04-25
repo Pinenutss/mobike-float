@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>p7</title>
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!--分享使用-->
+	<meta itemprop="name" content="" />
+	<meta itemprop="description" name="description" content="" />
+	<meta itemprop="image" content="img_url" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" type="text/css" href="css/weui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/animate.css/3.5.2/animate.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/dropload.css">	
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+
+</head>
+<body style="padding-bottom:1.5rem">
+  <div class="content">
+	<div class="works-top" id="js_list"></div>
+  </div>
+	<div class="fixed-wrap">
+		<div class="works-bottom fixed clearfix">
+        <a href="puzzle.html" class="btn-wyh">我也绘</a>
+        <a href="javascript:;" class="btn-hph">我的作品</a>
+		</div>
+  </div>
+  <div id="js_wrap" class="detail-wrap animated">
+		<div class="load animated"><img src="img/cycling-sm.gif" /></div>
+	  <div class="fixed-wrap animated">
+		<div class="works-top">
+			<div class="works-content" id="js_detail">
+
+			</div>
+		</div>
+		<div class="works-bottom fixed clearfix">
+			<a href="javascript:;" class="btn-wyh" id="js_thumb" data-id data-clickable><i class="fa fa-thumbs-o-up fa-flip-horizontal"></i> <span id="js_count">0</span></a>
+			<a href="javascript:;" class="btn-hph" id="js_workdetail">我的作品</a>
+		</div>
+		  <a href="javascript:;" class="close"></a>
+	</div>
+	  
+  </div>
+  <div class="panel msg animated">
+	  <div class="msg_div">
+       <h2>手机号码验证</h2>
+       <div class="msg_tel_div"><input type="text" id="js_phone" value="17308017636" placeholder="请输入手机号" /></div>
+       <div class="msg_code_div clearfix">
+           <div class="msg_code_con">
+              <div class="msg_code_input"><input type="text" id="js_vertify" placeholder="验证码" /></div>
+           </div>
+           <div class="msg_code_con">
+			   <div class="cod_btn"><input type="submit" id="getCode" value="获取验证码" /></div>
+           </div>
+       </div>
+	<div class="msg_btn_div"><input type="submit" value="提交" /></div>
+    </div>
+  </div>
+	<script src="lib/jquery-2.1.4.min.js"></script>
+	<script src="lib/judge.js"></script>
+	<script src="lib/utils.js"></script>
+	<script src="lib/dropload.min.js"></script>
+	<script src="js/list.js"></script>
+</body>
+</html>
